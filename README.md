@@ -158,7 +158,7 @@ Let's start by initializing the list to an empty array instead of having hard-co
 ```
   data: {
     items: [],
-    message: '',
+    text: '',
     show: 'all',
   },
   ```

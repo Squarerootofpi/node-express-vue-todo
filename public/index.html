@@ -10,8 +10,8 @@
 
 <body>
   <div id="app">
-    <h1>A List of Things To Do</h1>
-    <p v-show="activeItems.length === 0">You are done with all your tasks! Good job!</p>
+    <h1>The N303 BreadLovers' To Do List</h1>
+    <p v-show="activeItems.length === 0">You are done with all your tasks! Good job! Now go make more bread.</p>
     <form @submit.prevent="addItem">
       <input type="text" v-model="text">
       <button type="submit">Add</button>
@@ -33,8 +33,8 @@
       </li>
     </ul>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js" integrity="sha256-lrZTgsdM1iVdRigETFOU8u8/BmLX1ysQ8bzrULbuVFU=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
   <script src="/script.js"></script>
 </body>
 

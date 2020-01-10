@@ -1,0 +1,24 @@
+{
+  "name": "express-vue-todo",
+  "version": "1.0.0",
+  "description": "To Do List",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squarerootofpi/node-express-vue-todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squarerootofpi/node-express-vue-todo/issues"
+  },
+  "homepage": "https://github.com/Squarerootofpi/node-express-vue-todo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

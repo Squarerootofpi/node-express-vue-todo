@@ -26,6 +26,7 @@
       <li v-for="item in filteredItems">
         <label :class="{ item: true, completed: item.completed }">
           {{ item.text }}
+          This is an edit that is to be made through the branch.
           <input type="checkbox" v-model="item.completed" />
           <span class="checkmark"></span>
         </label>
